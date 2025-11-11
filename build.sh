@@ -56,7 +56,7 @@ cd ..
 # --- STEP 2: Build GCC ---
 echo "[*] Downloading GCC..."
 wget https://ftp.gnu.org/gnu/gcc/gcc-$GCC_VERSION/gcc-$GCC_VERSION.tar.gz
-tar xvf gcc-$GCC_VERSION.tar.g
+tar xvf gcc-$GCC_VERSION.tar.gz
 mkdir -p build-gcc && cd build-gcc
 
 echo "[*] Configuring GCC..."
